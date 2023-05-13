@@ -1,6 +1,8 @@
 
 %% Question 2 (Linear Algebra)
 
+clear all
+
 x = randi([-10 10]); y=x;
 while y==x
  y = randi([-10 10]);
@@ -24,8 +26,8 @@ end
 
 if(i==1) optiona = L*U;
 else 
-    if(i==2) optionc = L*U;
-    else optiond = L*U;
+    if(i==2) optiond = L*U;
+    else optionc = L*U;
     end
 end
 end
